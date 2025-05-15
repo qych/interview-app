@@ -1,0 +1,4 @@
+{
+  "watch": ["../school-portal-common/src/", "./node_modules/.prisma/client/", "./src/"],
+  "ignoreRoot": [".git"]
+}

@@ -1,0 +1,29 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0D355A",
+    "titleBar.inactiveBackground": "#0D153A",
+    "titleBar.activeForeground": "#CCC",
+    "titleBar.inactiveForeground": "#AAA",
+    "tab.activeBackground": "#59ACE5",
+    "tab.inactiveBackground": "#57595D"
+  },
+  "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
+}
