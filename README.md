@@ -7,7 +7,7 @@
 # Initializing the Application
 
 1. Run `initial-setup.sh` (in project root) to copy default config files to local environment
-2. Run `docker compose -p school-portal up -d` to initialize mysql
+2. Run `docker compose -p school-portal up -d` (docker compose), OR `docker run -d --name mysql-8 --env-file env.db -p 3306:3306 mysql:8` (docker) to initialize mysql
 3. Initialize local database once with by running `init-script-docker.sh` (in `school-portal-backend/ddl` directory)
 
 # Starting the Application
